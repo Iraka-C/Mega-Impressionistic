@@ -1,5 +1,6 @@
 # Mega Impressionistic
 HTML5 based dynamic impressionistic painting generator
+Contributed by Iraka-C and [LiuzcEECS](https://github.com/LiuzcEECS)
 
 This is a project inspired by Starry Night.<br/>
 We referred to the work of [InteractiveStarryNight](https://github.com/DomonJi/InteractiveStarryNight)
