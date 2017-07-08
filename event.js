@@ -44,16 +44,16 @@ function init(){
 		.fadeIn("slow")
         .click(function(e){
             useDefaultField=1-useDefaultField;
-            $("#hintpanel").text("Drag an image to here."+(useDefaultField?"¡Ì":""));
+            $("#hintpanel").html("Drag an image to here."+(useDefaultField?"&radic;":""));
         })
 		.appendTo("#infopanel");
     $("<div></div>")
 		.attr("id","clearField")
-		.text("Custom field [¡Á]")
+		.html("Custom field [&times;]")
 		.fadeIn("slow")
         .click(function(e){
             useField=1-useField;
-            $("#clearField").text("Custom field ["+(1-useField?"¡Ì":"¡Á")+"]");
+            $("#clearField").html("Custom field ["+(1-useField?"&radic;":"&times;")+"]");
         })
 		.appendTo("#infopanel");
 	setSize();
