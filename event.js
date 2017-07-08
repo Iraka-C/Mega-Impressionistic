@@ -165,8 +165,8 @@ function dragHandle(e){
 		}
 	}
 	catch(err){ // catch "No file dropped" error
-		$("#hintpanel").text("Drag an image to here."+(useDefaultField?"¡Ì":""));
-        $("#clearField").text("Custom field ["+(1-useField?"¡Ì":"¡Á")+"]");
+		$("#hintpanel").text("Drag an image to here."+(useDefaultField?"&radic;":""));
+        $("#clearField").text("Custom field ["+(1-useField?"&radic;":"&times;")+"]");
 		setSize();
 	}
 }
